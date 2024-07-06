@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Membership Organisations",
+    
+    "detail": "Our membership management software provides full automation of membership renewals and payments",
+    "image": "./work.png"
+  },
+  {
+    "name": "National Associations",
+    
+    "detail": "Our membership management software provides full automation of membership renewals and payments",
+    "image": "./work2.png"
+  },
+  {
+    "name": "Clubs And Groups",
+
+    "detail": "Our membership management software provides full automation of membership renewals and payments",
+    "image": "./work3.png"
+  }
+]

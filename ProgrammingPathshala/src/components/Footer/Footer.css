@@ -1,0 +1,91 @@
+.f-container{
+    justify-content: space-between;
+    color: white;
+}
+
+.whtext{
+    font-weight: bold;
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+}
+
+.f-left{
+    gap: 3rem;
+}
+.f-left>img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.f-menu{
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+    display: flex;
+    color: grey;
+    flex-direction: column;
+}
+@media (max-width: 768px) {
+    .f-container{
+        justify-content: center;
+    }
+    .f-container>div{
+        align-items: center!important;
+        text-align: center;
+    }
+    .f-right{
+        justify-content: center;
+    }
+}
+
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #263238;
+}
+
+input[type="email"] {
+    padding: 10px 20px;
+    padding-right: 40px;
+    /* Space for the button */
+    font-size: 16px;
+    color: #d3d3d3;
+    /* Light gray color for text */
+    background-color: #666;
+    /* White background */
+    border: 2px solid #d3d3d3;
+    /* Light gray border */
+    border-radius: 20px;
+    /* Rounded corners */
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="email"]::placeholder {
+    color: #d3d3d3;
+    /* Light gray color for placeholder */
+}
+
+input[type="email"]:focus {
+    border-color: #263238;
+    /* Darker border color on focus */
+}
+
+button#search-button {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+}
+
+button#search-button img {
+    width: 18px;
+    /* Adjust size as needed */
+    height: 18px;
+    /* Adjust size as needed */
+}

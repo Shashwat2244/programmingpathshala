@@ -1,0 +1,47 @@
+.App {
+  position: relative;
+  overflow-x: clip;
+}
+
+.App> :nth-child(1) {
+  background: var(--white);
+  position: relative;
+}
+
+.App> :nth-child(even) {
+  background-color: var(--lightBlue);
+}
+
+.App> :nth-child(odd):not(:last-child) {
+  background-color: var(--even-background);
+}
+
+.App> :nth-child(odd):last-child {
+  background-color: var(--footer-background);
+}
+
+.white-gradient {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  background: var(--white-gradient);
+  filter: blur(100px);
+  border-radius: 100px;
+}
+
+.foot {
+  background-color: var(--footer-background);
+}
+
+.theme-toggle-button {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem 1rem;
+  background: var(--blue);
+  color: var(--switch);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+}

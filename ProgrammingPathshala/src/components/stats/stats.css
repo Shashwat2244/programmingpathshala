@@ -1,0 +1,20 @@
+
+.v-container>div {
+    flex: 1;
+}
+
+.statcon{
+    display: flex;
+    justify-content: space-around;
+}
+
+.statcon>img{
+    height: 3rem;
+    width: 3rem;
+}
+
+@media (max-width: 1024px) {
+    .v-container {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,23 @@
+.cu-container .image-container {
+    border: 8px solid rgb(232 232 232 / 93%);
+}
+
+.cu-container>div {
+    flex: 0.5;
+}
+
+.cu-right {
+    gap: 0.5rem;
+}
+
+.more{
+    cursor: pointer;
+    margin-top: 1.5rem;
+}
+
+
+@media (max-width: 1024px) {
+    .v-container {
+        flex-direction: column;
+    }
+}

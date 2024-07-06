@@ -1,0 +1,19 @@
+.v-container .image-container {
+  border: 8px solid rgb(232 232 232 / 93%);
+}
+.v-container > div {
+  flex: 1;
+}
+.v-right {
+  gap: 0.5rem;
+}
+
+.uup{
+  margin-top: 2rem;
+}
+
+@media (max-width: 1024px) {
+    .v-container{
+        flex-direction: column;
+    }
+}
